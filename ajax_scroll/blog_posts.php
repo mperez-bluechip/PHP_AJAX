@@ -9,7 +9,7 @@
 
   // Typically, this would be a call to a database
   function find_blog_posts($page) {
-    $first_post = 101;
+    $first_post = 101; 
     $per_page = 3;
     $offset = (($page - 1) * $per_page) + 1;
 
